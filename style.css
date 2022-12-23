@@ -17,10 +17,18 @@
 }
 
 .grid-item {
-    background-color: white;
+    background-color: wheat;
     border: 1px;
     border-style: solid;
     border-color: black;
     text-align: center;
     aspect-ratio: 1;
+}
+
+.hover {
+    background-color: aqua;
+}
+
+.after-hover {
+    background-color: wheat;
 }
