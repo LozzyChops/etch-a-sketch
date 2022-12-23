@@ -1,0 +1,26 @@
+:root {
+    --grid-rows: 1;
+    --grid-columns: 1;
+}
+
+#grid-container {
+    display: grid;
+    margin: auto;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    width: 600px;
+    background-color: black;
+    gap: 5px;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-columns), 1fr);
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    aspect-ratio: 1;
+}
