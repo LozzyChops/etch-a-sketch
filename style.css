@@ -3,6 +3,22 @@
     --grid-columns: 1;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#btn {
+    display: flex;
+    align-self: center;
+}
+
+button {
+    align-self: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 #grid-container {
     display: grid;
     margin: auto;
